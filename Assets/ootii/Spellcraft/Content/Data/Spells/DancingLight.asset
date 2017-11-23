@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9377002c375019469a8b59e0f6f504b, type: 3}
+  m_Name: DancingLight
+  m_EditorClassIdentifier: 
+  _Name: Dancing Light
+  _Description: Creates a light tha moves with the character
+  _Icon: {fileID: 0}
+  _CastingStyle: 2
+  _CastingPause: 0
+  _ShowDebug: 0
+  StartNodes:
+  - {fileID: 114049528908483622}
+  EndNodes: []
+  EditorActionIndex: -1
+--- !u!114 &114049528908483622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0002
+  m_EditorClassIdentifier: 
+  ID: 133382
+  IsStartNode: 1
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114967836939742168}
+  Links:
+  - {fileID: 114807513223769496}
+  Position:
+    serializedVersion: 2
+    x: 431
+    y: 123
+    width: 150
+    height: 58
+--- !u!114 &114258263970409528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0001
+  m_EditorClassIdentifier: 
+  ID: 133384
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114389213312258480}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 433
+    y: 205
+    width: 150
+    height: 58
+--- !u!114 &114389213312258480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b528087cfa78e974c80fbd80d9ca9785, type: 3}
+  m_Name: z SpawnPet  -1038246
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 2
+  _MaxAge: 30
+  _Prefab: {fileID: 1621756188860466, guid: 38d144836a066e0459feb8c51ac79abb, type: 2}
+  _InstanceName: 
+  _PositionTypeIndex: 1
+  _ParentToTarget: 0
+  _BoneIndex: 0
+  _BoneName: HeadForward
+  _LocalPosition: {x: 0, y: 2, z: 2}
+  _ReleaseFromCameraForward: 0
+  _UseAttractor: 0
+  _AttractorTypeIndex: 3
+  _AttractorOffset: {x: 0, y: 0, z: 0}
+  _AudioFadeInSpeed: 0
+  _AudioFadeOutSpeed: 1
+  _LightFadeInSpeed: 0
+  _LightFadeOutSpeed: 1
+  _ProjectorFadeInSpeed: 0
+  _ProjectorFadeOutSpeed: 1
+  _Anchor: {fileID: 0}
+  _AnchorOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114807513223769496
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0002
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114049528908483622}
+  EndNode: {fileID: 114258263970409528}
+  Actions: []
+--- !u!114 &114967836939742168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e46450b04f6974982fdb29dc2193bc, type: 3}
+  m_Name: z Utility_WaitForSpellState  -1950212
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 1
+  _MaxAge: 2
+  _Time: 5
+  _SpellState: 3

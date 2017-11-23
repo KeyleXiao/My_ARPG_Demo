@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dc995717cd24b94eb3d5360c007ea92, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  _Name: Test1
+  _Description: 
+  _CastingStyle: 0
+  StartNodes:
+  - {fileID: 114947130192498652}
+  EditorActionIndex: -1
+--- !u!114 &114618271323105056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8825c19eb80ce0345a09fde207f5403b, type: 3}
+  m_Name: z Utility_Wait  -32780
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 1
+  _MaxAge: 2
+  _Time: 0
+--- !u!114 &114636872280552840
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0002
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114947130192498652}
+  EndNode: {fileID: 114665524628219676}
+  Actions: []
+--- !u!114 &114665524628219676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0002
+  m_EditorClassIdentifier: 
+  ID: 133626
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 0}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 336
+    y: 206
+    width: 150
+    height: 58
+--- !u!114 &114947130192498652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0001
+  m_EditorClassIdentifier: 
+  ID: 133628
+  IsStartNode: 1
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114618271323105056}
+  Links:
+  - {fileID: 114636872280552840}
+  Position:
+    serializedVersion: 2
+    x: 307
+    y: 109
+    width: 150
+    height: 58

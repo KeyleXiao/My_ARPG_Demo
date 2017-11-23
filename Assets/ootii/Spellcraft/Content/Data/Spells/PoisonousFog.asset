@@ -1,0 +1,959 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9377002c375019469a8b59e0f6f504b, type: 3}
+  m_Name: PoisonousFog
+  m_EditorClassIdentifier: 
+  _Name: Poisonous Fog
+  _Description: 
+  _Icon: {fileID: 0}
+  _CastingStyle: 3
+  _CastingPause: 0
+  _ShowDebug: 0
+  StartNodes:
+  - {fileID: 114398109715589516}
+  - {fileID: 114435367290975158}
+  EndNodes:
+  - {fileID: 114944216213445800}
+  EditorActionIndex: -1
+--- !u!114 &114010317561225506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0013
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114944216213445800}
+  EndNode: {fileID: 114253128017114038}
+  Actions: []
+--- !u!114 &114020313024059388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0013
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114944216213445800}
+  EndNode: {fileID: 114405765102876868}
+  Actions: []
+--- !u!114 &114038155895022980
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9961fe9bc6745a14c8a24fdaf2fb495f, type: 3}
+  m_Name: z SpawnParticles  -2765394
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 1
+  _MaxAge: 2
+  _Prefab: {fileID: 1769074803045820, guid: 1b0d31b7a0ce11143a0f11897faa4e6f, type: 2}
+  _InstanceName: RightHandCasting
+  _PositionTypeIndex: 1
+  _ParentToTarget: 1
+  _BoneIndex: 20
+  _BoneName: RightHand
+  _LocalPosition: {x: 0, y: 0, z: 0}
+  _ReleaseFromCameraForward: 0
+  _UseAttractor: 0
+  _AttractorTypeIndex: 4
+  _AttractorOffset: {x: 0, y: 0, z: 0}
+  _AudioFadeInSpeed: 0
+  _AudioFadeOutSpeed: 1
+  _LightFadeInSpeed: 0
+  _LightFadeOutSpeed: 1
+  _ProjectorFadeInSpeed: 0
+  _ProjectorFadeOutSpeed: 1
+--- !u!114 &114067223252756546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0011
+  m_EditorClassIdentifier: 
+  ID: 132688
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114425059090641064}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 561
+    y: 183
+    width: 150
+    height: 58
+--- !u!114 &114073560048271148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0010
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114398109715589516}
+  EndNode: {fileID: 114405765102876868}
+  Actions:
+  - {fileID: 114636537608198112}
+--- !u!114 &114146039880474382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012db07bbb203ef499279b3273997367, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114923473483350248}
+  _Name: 
+  State: 4
+--- !u!114 &114163636321295690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d50210f9bf374419e5bf92f152605d, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114251427536105588}
+  _Name: 
+  StringValue: OnEnter
+--- !u!114 &114225211690654764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0008
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114435367290975158}
+  EndNode: {fileID: 114369043625337156}
+  Actions: []
+--- !u!114 &114228512212343848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0002
+  m_EditorClassIdentifier: 
+  ID: 132698
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114895803078873274}
+  Links:
+  - {fileID: 114252470657175382}
+  - {fileID: 114251427536105588}
+  - {fileID: 114671882247702472}
+  Position:
+    serializedVersion: 2
+    x: 365
+    y: 318
+    width: 150
+    height: 58
+--- !u!114 &114251427536105588
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0005
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114228512212343848}
+  EndNode: {fileID: 114311531038292354}
+  Actions:
+  - {fileID: 114163636321295690}
+--- !u!114 &114252470657175382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0004
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114228512212343848}
+  EndNode: {fileID: 114789405123968364}
+  Actions:
+  - {fileID: 114482343719943124}
+--- !u!114 &114253128017114038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0009
+  m_EditorClassIdentifier: 
+  ID: 132704
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114771052565954512}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 564
+    y: 297
+    width: 150
+    height: 58
+--- !u!114 &114311531038292354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0003
+  m_EditorClassIdentifier: 
+  ID: 132706
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114409303745099154}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 382
+    y: 430
+    width: 150
+    height: 58
+--- !u!114 &114369043625337156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0008
+  m_EditorClassIdentifier: 
+  ID: 132708
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114038155895022980}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 560
+    y: 111
+    width: 150
+    height: 58
+--- !u!114 &114372422746656390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f515bd87c4077429478ded9918a676, type: 3}
+  m_Name: z Utility_SelectPosition  -3753870
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _Prefab: {fileID: 1033051594879162, guid: 0cf079e42b16bf54094079d305604280, type: 2}
+  _InstanceName: 
+  _PositionTypeIndex: 0
+  _ParentToTarget: 1
+  _BoneIndex: 0
+  _BoneName: 
+  _LocalPosition: {x: 0, y: 0, z: 0}
+  _ActionAlias: Spell Casting Continue
+  _CancelActionAlias: Spell Casting Cancel
+  _MinDistance: 2
+  _MaxDistance: 20
+  _Radius: 0
+  _UseMouse: 0
+  _CollisionLayers: 201
+  _Tags: Ground
+  _RequireMatchingUp: 1
+  _TargetMaterial: {fileID: 0}
+--- !u!114 &114398109715589516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0001
+  m_EditorClassIdentifier: 
+  ID: 132712
+  IsStartNode: 1
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114372422746656390}
+  Links:
+  - {fileID: 114918212673827342}
+  - {fileID: 114966364462043174}
+  - {fileID: 114730876895441954}
+  - {fileID: 114073560048271148}
+  - {fileID: 114923473483350248}
+  Position:
+    serializedVersion: 2
+    x: 365
+    y: 241
+    width: 150
+    height: 58
+--- !u!114 &114401567522545822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01f1b7cbacd7184a8e32e8278ccb50a, type: 3}
+  m_Name: z Utility_SendMotionMessage  -438492
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _TargetTypeIndex: 0
+  _MessageID: 103
+--- !u!114 &114405765102876868
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0010
+  m_EditorClassIdentifier: 
+  ID: 132716
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114987461851151238}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 564
+    y: 357
+    width: 150
+    height: 58
+--- !u!114 &114409303745099154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfe3d38e63f70747bf64ed6c7b5b98b, type: 3}
+  m_Name: z ActorEffect_CauseDamage  -4520098
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 10
+  _EffectName: Cause Damage
+  _DamageType: 5
+  _ImpactType: 4
+  _DamageFloatValueIndex: -1
+  _MinDamage: 20
+  _MaxDamage: 20
+  _PlayAnimation: 1
+  _TriggerDelay: 3
+--- !u!114 &114425059090641064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01f1b7cbacd7184a8e32e8278ccb50a, type: 3}
+  m_Name: z Utility_SendMotionMessage  -2782846
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _TargetTypeIndex: 0
+  _MessageID: 102
+--- !u!114 &114435367290975158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0006
+  m_EditorClassIdentifier: 
+  ID: 132722
+  IsStartNode: 1
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114736563114651046}
+  Links:
+  - {fileID: 114225211690654764}
+  - {fileID: 114652596623476164}
+  Position:
+    serializedVersion: 2
+    x: 364
+    y: 72
+    width: 150
+    height: 58
+--- !u!114 &114456063869327578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f93b01e128e80a4fa6cf275af93bc6c, type: 3}
+  m_Name: z ActorEffect_SpawnParticles  -4649348
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 5
+  _EffectName: Spawn Particles
+  _Prefab: {fileID: 1010282574419832, guid: c0313f76ac4999c4084570d8b0d5d517, type: 2}
+--- !u!114 &114482343719943124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d50210f9bf374419e5bf92f152605d, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114252470657175382}
+  _Name: 
+  StringValue: OnEnter
+--- !u!114 &114506590921351998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0007
+  m_EditorClassIdentifier: 
+  ID: 132728
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114929694529878912}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 561
+    y: 49
+    width: 150
+    height: 58
+--- !u!114 &114579662045603324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012db07bbb203ef499279b3273997367, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114730876895441954}
+  _Name: 
+  State: 3
+--- !u!114 &114606971231943876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0012
+  m_EditorClassIdentifier: 
+  ID: 132732
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114401567522545822}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 562
+    y: 237
+    width: 150
+    height: 58
+--- !u!114 &114614950668755266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e08ac9a852bc8d479a03c92df931ca8, type: 3}
+  m_Name: z Utility_Debug  -841676
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _Text: After cause damage
+--- !u!114 &114636537608198112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012db07bbb203ef499279b3273997367, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114073560048271148}
+  _Name: 
+  State: 4
+--- !u!114 &114652596623476164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0008
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114435367290975158}
+  EndNode: {fileID: 114506590921351998}
+  Actions: []
+--- !u!114 &114653014322038500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d50210f9bf374419e5bf92f152605d, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114671882247702472}
+  _Name: 
+  StringValue: OnEnter
+--- !u!114 &114671882247702472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0005
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114228512212343848}
+  EndNode: {fileID: 114768395119271772}
+  Actions:
+  - {fileID: 114653014322038500}
+--- !u!114 &114730876895441954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0012
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114398109715589516}
+  EndNode: {fileID: 114606971231943876}
+  Actions:
+  - {fileID: 114579662045603324}
+--- !u!114 &114736563114651046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2332f9e9f6a11c6489bc553f85d52986, type: 3}
+  m_Name: z Utility_Empty  -2765194
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _Succeed: 1
+--- !u!114 &114768395119271772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0005
+  m_EditorClassIdentifier: 
+  ID: 132748
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114906552501322888}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 546
+    y: 430
+    width: 150
+    height: 58
+--- !u!114 &114771052565954512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc652c8d913482540bdf26433b1a2049, type: 3}
+  m_Name: z StopParticles  -2765430
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _OwnerTypeIndex: 0
+  _TargetName: LeftHandCasting
+--- !u!114 &114789405123968364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0004
+  m_EditorClassIdentifier: 
+  ID: 132752
+  IsStartNode: 0
+  IsEndNode: 0
+  State: 0
+  _Content: {fileID: 114456063869327578}
+  Links: []
+  Position:
+    serializedVersion: 2
+    x: 221
+    y: 430
+    width: 150
+    height: 58
+--- !u!114 &114832138755465698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d50210f9bf374419e5bf92f152605d, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 0}
+  _Name: 
+  StringValue: OnEnter
+--- !u!114 &114895803078873274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddb464fda78346d43859125a68802b97, type: 3}
+  m_Name: z SpawnTriggerArea  -3754290
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 2
+  _MaxAge: 10
+  _Prefab: {fileID: 1786612108881070, guid: 2d06801336e21aa48b2f76355c8b86cc, type: 2}
+  _InstanceName: 
+  _PositionTypeIndex: 3
+  _ParentToTarget: 0
+  _BoneIndex: 0
+  _BoneName: 
+  _LocalPosition: {x: 0, y: 0, z: 0}
+  _Size: {x: 3, y: 1, z: 3}
+  _ReleaseFromCameraForward: 0
+  _OnTriggerEnterTag: OnEnter
+  _OnTriggerStayTag: OnStay
+  _OnTriggerExitTag: OnExit
+--- !u!114 &114906552501322888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4da626a08be4a6439c05b32c6e1cb8f, type: 3}
+  m_Name: z ActorEffect_ModifyAttribute  -693124
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 10
+  _EffectName: Modify Attribute
+  _AttributeID: STRENGTH
+  _MinAttributeID: 
+  _MaxAttributeID: 
+  _MinValue: -1
+  _MaxValue: -1
+  _TriggerDelay: 0.5
+  _ResetOnDeactivate: 1
+--- !u!114 &114918212673827342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0002
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114398109715589516}
+  EndNode: {fileID: 114228512212343848}
+  Actions: []
+--- !u!114 &114922134795107846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012db07bbb203ef499279b3273997367, type: 3}
+  m_Name: zzzz NodeListAction 0001
+  m_EditorClassIdentifier: 
+  _Link: {fileID: 114966364462043174}
+  _Name: 
+  State: 2
+--- !u!114 &114923473483350248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0010
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114398109715589516}
+  EndNode: {fileID: 114253128017114038}
+  Actions:
+  - {fileID: 114146039880474382}
+--- !u!114 &114929694529878912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9961fe9bc6745a14c8a24fdaf2fb495f, type: 3}
+  m_Name: z SpawnParticles  -2765334
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 1
+  _MaxAge: 2
+  _Prefab: {fileID: 1769074803045820, guid: 1b0d31b7a0ce11143a0f11897faa4e6f, type: 2}
+  _InstanceName: LeftHandCasting
+  _PositionTypeIndex: 1
+  _ParentToTarget: 1
+  _BoneIndex: 19
+  _BoneName: LeftHand
+  _LocalPosition: {x: 0, y: 0, z: 0}
+  _ReleaseFromCameraForward: 0
+  _UseAttractor: 0
+  _AttractorTypeIndex: 4
+  _AttractorOffset: {x: 0, y: 0, z: 0}
+  _AudioFadeInSpeed: 0
+  _AudioFadeOutSpeed: 1
+  _LightFadeInSpeed: 0
+  _LightFadeOutSpeed: 1
+  _ProjectorFadeInSpeed: 0
+  _ProjectorFadeOutSpeed: 1
+--- !u!114 &114944216213445800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d78c8b54fe33c4ca7184dfd6c711ca, type: 3}
+  m_Name: z NodeCanvas.Node 0013
+  m_EditorClassIdentifier: 
+  ID: 132768
+  IsStartNode: 0
+  IsEndNode: 1
+  State: 0
+  _Content: {fileID: 0}
+  Links:
+  - {fileID: 114010317561225506}
+  - {fileID: 114020313024059388}
+  Position:
+    serializedVersion: 2
+    x: 749
+    y: 328
+    width: 150
+    height: 58
+--- !u!114 &114966364462043174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94afe5d7075754f479447de7e5f29753, type: 3}
+  m_Name: z NodeCanvas.Link 0011
+  m_EditorClassIdentifier: 
+  _Name: 
+  _IsEnabled: 1
+  StartNode: {fileID: 114398109715589516}
+  EndNode: {fileID: 114067223252756546}
+  Actions:
+  - {fileID: 114922134795107846}
+--- !u!114 &114987461851151238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc652c8d913482540bdf26433b1a2049, type: 3}
+  m_Name: z StopParticles  -2765478
+  m_EditorClassIdentifier: 
+  _Name: 
+  _Description: 
+  _IsEnabled: 1
+  mIsShuttingDown: 0
+  _DeactivationIndex: 0
+  _MaxAge: 2
+  _OwnerTypeIndex: 0
+  _TargetName: RightHandCasting

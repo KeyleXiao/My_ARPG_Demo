@@ -1,0 +1,3 @@
+﻿Spell Casting Pack
+Version 0.11
+Nov 16, 2017

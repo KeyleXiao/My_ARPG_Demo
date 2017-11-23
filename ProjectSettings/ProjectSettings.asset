@@ -497,7 +497,7 @@ PlayerSettings:
   webGLUseWasm: 0
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
-    1: OOTII_AC;OOTII_MC
+    1: OOTII_AC;OOTII_MC;OOTII_SCMP
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
