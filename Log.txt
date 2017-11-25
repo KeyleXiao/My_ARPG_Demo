@@ -1,8 +1,10 @@
-[1233.6790] Spell[Heal Self].Awake
-[1233.7180] Spell[Immolate].Awake
-[1233.7510] Spell[Fire Ring Self].Awake
-[1234.1780] Spell[Fire Ring Self].Awake
-[1234.2580] Spell[Heal Self].Awake
-[1234.2850] Spell[Immolate].Awake
-[0.4582] Spell[Heal Self].Awake
-[0.4590] Spell[Fire Ring Self].Awake
+[3.4222] Spell[Fire Ring Self].Awake
+[3.4243] Spell[Fire Ring Self].Awake
+[3.4245] Spell[Fire Ring Self].Awake
+[3.4246] Spell[Fire Ring Self].Awake
+[3.4247] Spell[Fire Ring Self].Awake
+[13.6375] Spell[Heal Self].Awake
+[13.6377] Spell[Heal Self].Awake
+[13.6378] Spell[Heal Self].Awake
+[13.6379] Spell[Heal Self].Awake
+[13.6380] Spell[Heal Self].Awake
